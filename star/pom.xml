@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.star.rpc</groupId>
     <artifactId>star</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>star</name>
     <description>com.star.rpc</description>
@@ -33,6 +34,9 @@
         <module>star-core</module>
         <module>star-registry</module>
         <module>star-demo</module>
+        <module>star.demo</module>
+        <module>star-demo</module>
+        <module>star-demo-impl</module>
     </modules>
 
     <dependencies>

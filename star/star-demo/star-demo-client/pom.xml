@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>star</artifactId>
+        <artifactId>star-demo</artifactId>
         <groupId>com.star.rpc</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>star-demo</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>star-demo-client</module>
-        <module>star-demo-rpc-impl</module>
-        <module>star-demo-rpc-api</module>
-    </modules>
+    <artifactId>star-demo-client</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
