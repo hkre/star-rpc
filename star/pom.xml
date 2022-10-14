@@ -31,12 +31,13 @@
     </properties>
 
     <modules>
-        <module>star-core</module>
-        <module>star-registry</module>
-        <module>star-demo</module>
-        <module>star.demo</module>
-        <module>star-demo</module>
-        <module>star-demo-impl</module>
+        <module>star-rpc-provider</module>
+        <module>com.star.registery</module>
+        <module>star-rpc-api</module>
+        <module>star-rpc-api</module>
+        <module>com-star-protocol</module>
+        <module>star-rpc-consumer</module>
+
     </modules>
 
     <dependencies>

@@ -1,2 +1,0 @@
-failfast=star.cluster.ha.FailfastHaStrategy
-failover=star.cluster.ha.FailoverHaStrategy
