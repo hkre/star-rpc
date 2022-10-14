@@ -1,4 +1,4 @@
-package com.star.spring.spring.reference;
+package com.star.spring.reference;
 
 import org.springframework.context.EnvironmentAware;
 import org.springframework.context.annotation.Bean;
@@ -15,12 +15,12 @@ public class RpcRefernceAutoConfiguration implements EnvironmentAware{
 
     @Bean
     public SpringRpcReferencePostProcessor postProcessor(){
-        String address=environment.getProperty("gp.serviceAddress");
+        String address="127.0.0.1";
         int port=Integer.parseInt(environment.getProperty("gp.servicePort"));
         RpcClientProperties rc=new RpcClientProperties();
         rc.setServiceAddress(address);
         rc.setServicePort(port);
-        rc.setRegistryType(Byte.parseByte(environment.getProperty("gp.registryType")));
+        rc.setRegistryType(new Byte("0"));
         rc.setRegistryAddress(environment.getProperty("gp.registryAddress"));
         return new SpringRpcReferencePostProcessor(rc);
     }

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
  * http://www.gupaoedu.com
  **/
 //@ComponentScan(basePackages = {"com.star.spring.spring.annotation","com.star.spring.spring.service","com.star.service","com.star.*"})
-@ComponentScan(basePackages = {"com.star.spring.spring.annotation","com.star.spring.spring.service","com.star.service","com.*"})
+@ComponentScan(basePackages = {"com.star.spring.annotation","com.star.spring.service","com.star.service","com.star.api"})
 @SpringBootApplication
 public class NettyRpcProviderMain {
 

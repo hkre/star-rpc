@@ -1,8 +1,8 @@
-package com.star.spring.spring.reference;
+package com.star.spring.reference;
 
 
 import com.star.constants.RpcConstant;
-import com.star.spring.spring.annotation.GpRemoteReference;
+import com.star.spring.annotation.GpRemoteReference;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanClassLoaderAware;

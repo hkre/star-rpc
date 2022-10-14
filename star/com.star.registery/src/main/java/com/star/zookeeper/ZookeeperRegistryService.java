@@ -25,7 +25,7 @@ import java.util.List;
 @Slf4j
 public class ZookeeperRegistryService implements IRegistryService {
 
-    private static final String REGISTRY_PATH="/registry";
+    private static final String REGISTRY_PATH="/registrydemo";
     //Curator中提供的服务注册与发现的组件封装，它对此抽象出了ServiceInstance、
     // ServiceProvider、ServiceDiscovery三个接口，通过它我们可以很轻易的实现Service Discovery
     private final ServiceDiscovery<ServiceInfo> serviceDiscovery;

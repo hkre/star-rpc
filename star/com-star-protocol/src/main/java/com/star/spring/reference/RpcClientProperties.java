@@ -1,4 +1,4 @@
-package com.star.spring.spring.reference;
+package com.star.spring.reference;
 
 import lombok.Data;
 
@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class RpcClientProperties {
 
-    private String serviceAddress="192.168.1.102";
+    private String serviceAddress="";
 
     private int servicePort=20880;
 

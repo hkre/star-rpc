@@ -1,10 +1,10 @@
-package com.star.spring.spring.service;
+package com.star.spring.service;
 
 
 import com.star.protocol.NettyServer;
 import com.star.registery.IRegistryService;
 import com.star.registery.ServiceInfo;
-import com.star.spring.spring.annotation.GpRemoteService;
+import com.star.spring.annotation.GpRemoteService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;

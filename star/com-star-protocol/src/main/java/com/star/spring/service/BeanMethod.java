@@ -1,4 +1,4 @@
-package com.star.spring.spring.service;
+package com.star.spring.service;
 
 import lombok.Data;
 

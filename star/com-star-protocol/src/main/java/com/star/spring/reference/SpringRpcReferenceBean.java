@@ -1,4 +1,4 @@
-package com.star.spring.spring.reference;
+package com.star.spring.reference;
 
 import com.star.registery.IRegistryService;
 import com.star.registery.RegistryFactory;

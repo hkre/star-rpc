@@ -1,5 +1,5 @@
-package com.star.spring.spring.service;
-;
+package com.star.spring.service;
+
 import com.star.registery.IRegistryService;
 import com.star.registery.RegistryFactory;
 import com.star.registery.RegistryType;
@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.net.UnknownHostException;
+
+;
 
 /**
  * 咕泡学院，只为更好的你

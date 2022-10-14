@@ -1,4 +1,4 @@
-package com.star.spring.spring.service;
+package com.star.spring.service;
 
 
 import com.star.core.RpcRequest;
@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * http://www.gupaoedu.com
  **/
 public class Mediator {
-    public static Map<String,BeanMethod> beanMethodMap=new ConcurrentHashMap<>();
+    public static Map<String, BeanMethod> beanMethodMap=new ConcurrentHashMap<>();
 
     private volatile static Mediator instance=null;
 
