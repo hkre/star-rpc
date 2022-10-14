@@ -1,7 +1,8 @@
 package com.star.spring.spring.reference;
 
-import com.example.constants.RpcConstant;
-import com.example.spring.annotation.GpRemoteReference;
+
+import com.star.constants.RpcConstant;
+import com.star.spring.spring.annotation.GpRemoteReference;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanClassLoaderAware;
@@ -73,7 +74,7 @@ public class SpringRpcReferencePostProcessor implements ApplicationContextAware,
     private void parseRpcReference(Field field){
         GpRemoteReference gpRemoteReference=AnnotationUtils.getAnnotation(field,GpRemoteReference.class);
         if(gpRemoteReference!=null) {
-            BeanDefinitionBuilder builder=BeanDefinitionBuilder.genericBeanDefinition(com.example.spring.reference.SpringRpcReferenceBean.class);
+            BeanDefinitionBuilder builder=BeanDefinitionBuilder.genericBeanDefinition(SpringRpcReferenceBean.class);
             builder.setInitMethodName(RpcConstant.INIT_METHOD_NAME);
             builder.addPropertyValue("interfaceClass",field.getType());
             /*builder.addPropertyValue("serviceAddress",clientProperties.getServiceAddress());

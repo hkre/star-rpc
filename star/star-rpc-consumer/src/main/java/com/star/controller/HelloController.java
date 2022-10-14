@@ -1,7 +1,8 @@
 package com.star.controller;
 
 import com.star.api.IUserService;
-import com.star.spring.annotation.GpRemoteReference;
+
+import com.star.spring.spring.annotation.GpRemoteReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

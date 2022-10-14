@@ -33,11 +33,6 @@
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
         <dependency>
-            <artifactId>star</artifactId>
-            <groupId>com.star.rpc</groupId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>com.star.rpc</groupId>
             <artifactId>star-rpc-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
