@@ -1,4 +1,4 @@
-package com.star.spring.service;
+package com.star.spring.spring.service;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,9 +1,8 @@
-package com.star.spring.service;
-
-
-import com.star.IRegistryService;
-import com.star.RegistryFactory;
-import com.star.RegistryType;
+package com.star.spring.spring.service;
+;
+import com.star.registery.IRegistryService;
+import com.star.registery.RegistryFactory;
+import com.star.registery.RegistryType;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

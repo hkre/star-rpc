@@ -1,4 +1,4 @@
-package com.star;
+package com.star.registery;
 
 
 import com.star.zookeeper.ZookeeperRegistryService;

@@ -1,4 +1,4 @@
-package com.star.spring.reference;
+package com.star.spring.spring.reference;
 
 import lombok.Data;
 

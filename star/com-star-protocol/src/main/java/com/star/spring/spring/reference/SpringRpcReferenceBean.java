@@ -1,9 +1,8 @@
-package com.star.spring.reference;
+package com.star.spring.spring.reference;
 
-
-import com.star.IRegistryService;
-import com.star.RegistryFactory;
-import com.star.RegistryType;
+import com.star.registery.IRegistryService;
+import com.star.registery.RegistryFactory;
+import com.star.registery.RegistryType;
 import org.springframework.beans.factory.FactoryBean;
 
 import java.lang.reflect.Proxy;

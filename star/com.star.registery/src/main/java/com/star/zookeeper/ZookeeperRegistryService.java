@@ -1,8 +1,8 @@
 package com.star.zookeeper;
 
 
-import com.star.IRegistryService;
-import com.star.ServiceInfo;
+import com.star.registery.IRegistryService;
+import com.star.registery.ServiceInfo;
 import com.star.loadbalance.ILoadBalance;
 import com.star.loadbalance.RandomLoadBalance;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.star.spring.annotation;
+package com.star.spring.spring.annotation;
 
 import org.springframework.stereotype.Component;
 

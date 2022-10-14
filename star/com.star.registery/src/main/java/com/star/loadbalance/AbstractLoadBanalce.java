@@ -2,7 +2,7 @@ package com.star.loadbalance;
 
 
 
-import com.star.ServiceInfo;
+import com.star.registery.ServiceInfo;
 import org.apache.curator.x.discovery.ServiceInstance;
 
 import java.util.List;

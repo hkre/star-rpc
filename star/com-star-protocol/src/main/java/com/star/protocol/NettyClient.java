@@ -1,11 +1,11 @@
 package com.star.protocol;
 
 
-import com.star.IRegistryService;
-import com.star.ServiceInfo;
 import com.star.core.RpcProtocol;
 import com.star.core.RpcRequest;
 import com.star.handler.RpcClientInitializer;
+import com.star.registery.IRegistryService;
+import com.star.registery.ServiceInfo;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;

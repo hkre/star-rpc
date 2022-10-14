@@ -1,4 +1,4 @@
-package com.star;
+package com.star.registery;
 
 /**
  * 咕泡学院，只为更好的你

@@ -1,7 +1,7 @@
 package com.star.handler;
 
-import com.star.codec.RpcDecoder;
-import com.star.codec.RpcEncoder;
+import com.example.codec.RpcDecoder;
+import com.example.codec.RpcEncoder;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;

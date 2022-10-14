@@ -1,4 +1,4 @@
-package com.star;
+package com.star.registery;
 
 /**
  * 咕泡学院，只为更好的你
@@ -12,14 +12,14 @@ public interface IRegistryService {
      * @param serviceInfo
      * @throws Exception
      */
-    void register(com.star.ServiceInfo serviceInfo) throws Exception;
+    void register(ServiceInfo serviceInfo) throws Exception;
 
     /**
      * 取消注册
      * @param serviceInfo
      * @throws Exception
      */
-    void unRegister(com.star.ServiceInfo serviceInfo) throws Exception;
+    void unRegister(ServiceInfo serviceInfo) throws Exception;
 
     /**
      * 动态发现服务
@@ -27,5 +27,5 @@ public interface IRegistryService {
      * @return
      * @throws Exception
      */
-    com.star.ServiceInfo discovery(String serviceName) throws Exception;
+    ServiceInfo discovery(String serviceName) throws Exception;
 }
