@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  **/
-@ComponentScan(basePackages = {"com.star.*"})
+@ComponentScan(basePackages = {"com.star.spring.spring.annotation","com.star.controller","com.star.spring.spring.reference"})
 @SpringBootApplication
 public class NettyConsumerMain {
     public static void main(String[] args) {
