@@ -15,12 +15,12 @@ import lombok.extern.slf4j.Slf4j;
  **/
 @Slf4j
 public class NettyServer{
-    private String serverAddress; //地址
-    private int serverPort; //端口
+    private String serverAddress = "127.0.0.1"; //地址
+    private int serverPort = 26778; //端口
 
     public NettyServer(String serverAddress, int serverPort) {
-        this.serverAddress = serverAddress;
-        this.serverPort = serverPort;
+        this.serverAddress = "127.0.0.1";
+        this.serverPort = 26778;
     }
 
     public void startNettyServer() throws Exception {

@@ -58,8 +58,8 @@ public class SpringRpcProviderBean implements InitializingBean, BeanPostProcesso
                 Mediator.beanMethodMap.put(key,beanMethod);
                 try {
                     ServiceInfo serviceInfo = new ServiceInfo();
-                    serviceInfo.setServiceAddress(this.serverAddress);
-                    serviceInfo.setServicePort(this.serverPort);
+                    serviceInfo.setServiceAddress("127.0.0.1");
+                    serviceInfo.setServicePort(26778);
                     serviceInfo.setServiceName(serviceName);
                     registryService.register(serviceInfo);
                 }catch (Exception e){
